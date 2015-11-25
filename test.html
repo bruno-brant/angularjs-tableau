@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<!-- Ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- jQuery is required by Bootstrap; Avoid using with Angular -->
+		<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+		<!-- Angular JS for small testing -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+
+		<!-- Tableau Javascript API -->
+		<!-- <script src="https://public.tableau.com/javascripts/api/tableau-2.0.0.js"></script> -->
+
+		<!-- custom script for testing -->
+		<script src="module.js" type="text/javascript"></script>
+	</head>
+	<body ng-app="tableau-api-test">
+		<h1>Teste de Formatação do Bootstrap e iFrame</h1>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<data-ps-embedded-tableau-report name=”Book_CenarioTeste_ProprioIframe&#47;Fixo_b” tabs=”no” showVizHome=”n” showShareOptions=”true” />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
